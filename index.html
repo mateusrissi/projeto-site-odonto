@@ -15,7 +15,7 @@
   <link rel="stylesheet" type="text/css" href="../projeto-site-odonto/css/bootstrap.min.css">
 
   <style type="text/css">
-    body{
+    body {
       margin-top: 90px;
     }
   </style>
@@ -96,23 +96,35 @@
   <!-- end of navbar -->
 
   <!-- Page content -->
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="text-center">
-        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-          <main role="main" class="inner cover">
-            <h1 class="cover-heading">Cover your page.</h1>
-            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit
-              the
-              text, and add your own fullscreen background photo to make it your own.</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-            </p>
-          </main>
+      <div class="col-12">
+        <div id="carouselControl" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="../projeto-site-odonto/images/carousel-01.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../projeto-site-odonto/images/carousel-02.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../projeto-site-odonto/images/carousel-03.jpg" alt="">
+            </div>
+            <a href="#carouselControl" class="carousel-control-prev" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Voltar</span>
+            </a>
+            <a href="#carouselControl" class="carousel-control-next" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Avançar</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
+
   <!-- end of Page content -->
 
   <!-- footer -->
@@ -129,6 +141,11 @@
   <script src="../projeto-site-odonto/js/jquery.min.js"></script>
   <script src="../projeto-site-odonto/js/popper.min.js"></script>
   <script src="../projeto-site-odonto/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $('.carousel').carousel({
+      interval: 7000
+    })
+  </script>
 
 </body>
 
