@@ -1,0 +1,4 @@
+.bg-parallax {
+    background: url(../images/bg.jpg) fixed;
+    position: relative;
+}
