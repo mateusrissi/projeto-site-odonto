@@ -2,3 +2,12 @@
     background: url(../images/bg.jpg) fixed;
     position: relative;
 }
+
+.underline {
+    content: '';
+    border-top: 2px solid lightseagreen;
+    width: 70px;
+    display: block;
+    margin-bottom: 8px;
+    margin: 0 auto;
+}
