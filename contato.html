@@ -15,6 +15,7 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
   <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <link rel="stylesheet" type="text/css" href="css/contato.css">
 
   <!-- FontAwesome icons -->
   <script src="https://kit.fontawesome.com/d84bb12318.js"></script>
@@ -104,12 +105,11 @@
   <div class="container">
     <div class="row">
       <!-- Map Column -->
-      <div class="col-lg-8 mb-4">
+      <div class="col-lg-8 mb-2">
         <!-- Embedded Google Map -->
         <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.05765755872!2d-48.674052584939155!3d-27.65368778281417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952735acd232704f%3A0x62194eaa96af0b69!2sR.+Ver.+Osvaldo+de+Oliveira%2C+3800+-+Centro%2C+Palho%C3%A7a+-+SC%2C+88131-200!5e0!3m2!1spt-BR!2sbr!4v1465420778715"></iframe>
       </div>
-      <!-- end of Map Column -->
 
       <!-- Contact Details Column -->
       <div class="col-lg-4 md-md-2 mt-lg-0 mb-4">
@@ -137,53 +137,40 @@
         <hr>
       </div>
     </div>
-    <!-- end of Contact Details Column -->
-
-    <!-- Contact Form -->
-    <div class="row">
-      <div class="col-lg-8 mb-4">
-        <h3 style="text-transform: uppercase">Fale conosco</h3>
-        <form name="sentMessage" id="contactForm" novalidate>
-          <div class="control-group form-group">
-            <div class="controls">
-              <label>Seu nome:</label>
-              <input type="text" class="form-control" id="name" required
-                data-validation-required-message="Por favor, insira seu nome.">
-              <p class="help-block"></p>
-            </div>
-          </div>
-          <div class="control-group form-group">
-            <div class="controls">
-              <label>Seu telefone:</label>
-              <input type="tel" class="form-control" id="phone" required
-                data-validation-required-message="Por favor, insira seu número.">
-            </div>
-          </div>
-          <div class="control-group form-group">
-            <div class="controls">
-              <label>Seu e-mail:</label>
-              <input type="email" class="form-control" id="email" required
-                data-validation-required-message="Por favor, insira seu e-mail.">
-            </div>
-          </div>
-          <div class="control-group form-group">
-            <div class="controls">
-              <label>Mensagem:</label>
-              <textarea rows="10" cols="100" class="form-control" id="message" required
-                data-validation-required-message="Por favor, insira sua mensagem" maxlength="999"
-                style="resize:none"></textarea>
-            </div>
-          </div>
-          <div id="Sucesso!"></div>
-          <!-- For success/fail messages -->
-          <button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar mensagem.</button>
-        </form>
-      </div>
-    </div>
-    <!-- end of Contact Form -->
-
   </div>
-  <!-- end of Page content -->
+
+  <hr>
+
+  <!-- Contact Form 
+  <div class="container-fluid">
+    <div class="container contact-form">
+      <form method="post">
+        <h3 class="text-center text-uppercase py-2">Fale conosco<span class="underline"></span></h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" name="txtName" class="form-control" placeholder="Digite seu nome" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="txtEmail" class="form-control" placeholder="Digite seu email" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="txtPhone" class="form-control" placeholder="Digite seu número de telefone" />
+            </div>
+            <button type="button" class="btn btn-primary">
+              Enviar
+            </button>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <textarea name="txtMsg" class="form-control" placeholder="Sua Mensagem"
+                style="width: 100%; height: 150px;"></textarea>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>-->
 
   <hr>
 
