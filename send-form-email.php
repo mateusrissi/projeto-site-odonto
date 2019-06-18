@@ -19,6 +19,7 @@ $email_message .= "Mensagem: $txtMsg \n";
 $mailheader = "From: $txtEmail \r\n";
 
 mail($email_to, $email_subject, $email_message, $mailheader) or die("Error!");
-echo "Thank You!";
+
+header("Location: contato.html");
 
 ?>
