@@ -139,34 +139,42 @@
     </div>
   </div>
 
-  <!-- Contact Form  FUKIN HELL STILL DOES NOT WORK  
+  <!-- Contact Form  FUKIN HELL STILL DOES NOT WORK -->
   <div class="container-fluid py-3 mt-lg-5 bg-contato">
     <div class="container contact-form">
-      <form name="contact-form" method="POST" action="send_form_email.php">
-        <h3 class="text-center text-uppercase py-2">Fale conosco<span class="underline"></span></h3>
+      <h3 class="text-center text-uppercase py-2">Fale conosco<span class="underline"></span></h3>
+      <form name="contact-form" role="form" method="POST" action="send-form-email.php">
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <input type="text" name="txtName" class="form-control" placeholder="Digite seu nome" />
+              <input required type="text" name="txtName" class="form-control" placeholder="Digite seu nome" />
             </div>
             <div class="form-group">
-              <input type="text" name="txtEmail" class="form-control" placeholder="Digite seu email" />
+              <input required type="text" name="txtEmail" class="form-control" placeholder="Digite seu email" />
             </div>
             <div class="form-group">
-              <input type="text" name="txtPhone" class="form-control" placeholder="Digite seu número de telefone" />
+              <input required type="text" name="txtPhone" class="form-control"
+                placeholder="Digite seu número de telefone" />
             </div>
-            <input type="submit" value="Enviar">
+            <input class="btn btn-primary" type="submit" value="Enviar">
           </div>
           <div class="col-md-6">
             <div class="form-group">
-              <textarea name="txtMsg" class="form-control" placeholder="Sua Mensagem"
+              <textarea required name="txtMsg" class="form-control" placeholder="Sua Mensagem"
                 style="width: 100%; height: 150px;"></textarea>
             </div>
           </div>
         </div>
       </form>
     </div>
-  </div> -->
+  </div>
+
+
+  <form action="action.php" method="post">
+    <p>Your name: <input type="text" name="name" /></p>
+    <p>Your age: <input type="text" name="age" /></p>
+    <p><input type="submit" /></p>
+   </form>
 
   <hr>
 
