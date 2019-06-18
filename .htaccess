@@ -1,0 +1,1 @@
+RewriteEngine OnRewriteCond %{HTTPS} offRewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
