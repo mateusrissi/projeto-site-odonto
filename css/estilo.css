@@ -16,3 +16,7 @@
     background: rgb(31,191,120);
     background: linear-gradient(162deg, rgba(31,191,120,1) 0%, rgba(0,157,255,1) 49%, rgba(72,11,159,1) 95%);
 }
+
+body {
+    margin-top: 115px;
+  }

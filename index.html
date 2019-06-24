@@ -20,11 +20,6 @@
   <!-- FontAwesome icons -->
   <script src="https://kit.fontawesome.com/d84bb12318.js"></script>
 
-  <style type="text/css">
-    body {
-      margin-top: 110px;
-    }
-  </style>
 </head>
 
 <body>
@@ -132,65 +127,70 @@
   </div>
 
   <!-- main text -->
-  <div class="container">
-    <hr class="mt-md-4">
-    <div class="row">
-      <div class="col-lg-6 mt-md-2 mt-lg-5 mb-md-3">
-        <h2 class="text-center">Mais Odontologia<span class="underline"></span></h2>
-        <p style="text-align:justify; text-justify: inter-word;">
-          &nbsp;&nbsp;&nbsp;&nbsp;Estamos em busca de um novo conceito no mercado: Serviço de odontologia de excelência
-          ao acesso de todos!
-        </p>
-        <p style="text-align:justify; text-justify: inter-word;">
-          &nbsp;&nbsp;&nbsp;&nbsp;A clínica <span class="text-uppercase font-weight-bold">Mais Odontologia</span> está
-          localizada anexo a clínica <span class="text-uppercase font-weight-bold">Mais Consultas</span> no centro de
-          Palhoça. Possuímos 2 consultórios
-          modernamente equipados, uma experiente e competente equipe de ciurgiões-dentistas, oferecendo um serviço
-          odontológico de qualidade e acessível a todos.
-        </p>
+  <div class="container-fluid">
+    <div class="container">
+      <hr class="mt-md-4">
+      <div class="row">
+        <div class="col-lg-6 mt-md-2 mt-lg-5 mb-md-3">
+          <h2 class="text-center">
+            Mais Odontologia<span class="underline"></span>
+          </h2>
+          <p class="text-justify">
+            &nbsp;&nbsp;&nbsp;&nbsp;Estamos em busca de um novo conceito no mercado: Serviço de odontologia de
+            excelência
+            ao acesso de todos!
+          </p>
+          <p class="text-justify">
+            &nbsp;&nbsp;&nbsp;&nbsp;A clínica <span class="text-uppercase font-weight-bold">Mais Odontologia</span> está
+            localizada anexo a clínica <span class="text-uppercase font-weight-bold">Mais Consultas</span> no centro de
+            Palhoça. Possuímos 2 consultórios modernamente equipados, uma experiente e competente equipe
+            ciurgiões-dentistas, oferecendo um serviço odontológico de qualidade e acessível a todos.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid rounded mt-md-3 mb-3 border shadow" src="images/bg-clinica.jpg"
+            alt="Foto da clínica Mais Odontologia">
+        </div>
       </div>
-      <div class="col-lg-6">
-        <img class="img-fluid rounded mt-md-3 mb-3 border shadow" src="images/bg-clinica.jpg"
-          alt="Foto da clínica Mais Odontologia">
-      </div>
+      <hr>
     </div>
-
-    <hr>
   </div>
 
   <!-- info contact -->
-  <div class="container rounded bg-parallax">
-    <div class="container pb-3">
-      <div class="row text-white pt-5">
-        <div class="col text-center">
-          <abbr title="Telefone">
-            <i style="font-size: 3em" class="fas fa-phone"></i>
-          </abbr>
-          <span class="underline mt-1"></span>
-          <p class="font-weight-bold pb-4">
-            <br>(48) 3374 5739
-            <br>(48) 98223 3324 <i style="font-size: 1.5em; color: lightseagreen" class="fab fa-whatsapp"></i>
-          </p>
-        </div>
-        <div class="col text-center">
-          <abbr title="Email">
-            <i style="font-size: 3em" class="fas fa-envelope"></i>
-          </abbr>
-          <span class="underline"></span>
-          <p class="font-weight-bold pb-4">
-            <br>contato@maisodontologia.com
-          </p>
-        </div>
-        <div class="col text-center">
-          <abbr title="Endereço">
-            <i style="font-size: 3em" class="fas fa-map-signs"></i>
-          </abbr>
-          <span class="underline mt-1"></span>
-          <p class="font-weight-bold">
-            <br>Rua Vereador Osvaldo de Oliveira, 3800
-            <br>Centro - Palhoça
-            <br>CEP 88131-200
-          </p>
+  <div class="container-fluid">
+    <div class="container rounded bg-parallax">
+      <div class="container pb-3">
+        <div class="row text-white pt-5">
+          <div class="col text-center">
+            <abbr title="Telefone">
+              <i style="font-size: 3em" class="fas fa-phone"></i>
+            </abbr>
+            <span class="underline mt-1"></span>
+            <p class="font-weight-bold pb-4">
+              <br>(48) 3374 5739
+              <br>(48) 98223 3324 <i style="font-size: 1.5em; color: lightseagreen" class="fab fa-whatsapp"></i>
+            </p>
+          </div>
+          <div class="col text-center">
+            <abbr title="Endereço">
+              <i style="font-size: 3em" class="fas fa-map-signs"></i>
+            </abbr>
+            <span class="underline mt-1"></span>
+            <p class="font-weight-bold">
+              <br>Rua Vereador Osvaldo de Oliveira, 3800
+              <br>Centro - Palhoça
+              <br>CEP 88131-200
+            </p>
+          </div>
+          <div class="col text-center">
+            <abbr title="Email">
+              <i style="font-size: 3em" class="fas fa-envelope"></i>
+            </abbr>
+            <span class="underline"></span>
+            <p class="font-weight-bold pb-4">
+              <br>contato@maisodontologia.com
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -217,11 +217,12 @@
       </p>
     </div>
   </footer>
-  <!-- end of Footer -->
 
-  <!-- jQuery first, then Bootstrap JS -->
+  <!-- jQuery, Bootstrap JS -->
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+
+  <!-- carousel speed -->
   <script type="text/javascript">
     $('.carousel').carousel({
       interval: 7000
