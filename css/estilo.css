@@ -19,4 +19,9 @@
 
 body {
     margin-top: 115px;
-  }
+}
+
+.carousel-item {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
