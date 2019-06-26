@@ -32,7 +32,11 @@
           <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border">
             <div class="container">
               <a class="navbar-brand" href="index.html">
-                <img class="d-inline-block align-top" height="45" src="images/logo.png" alt="Logotipo Mais Odontologia">
+                <picture>
+                  <source media="(min-width: 425px)" srcset="images/logo.png">
+                  <source media="(min-width: 100px)" srcset="images/logo-02.png">
+                  <img class="d-inline-block align-top" src="images/logo-02.png" alt="logotipo da Mais Odontologia">
+                </picture>
               </a>
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -108,7 +112,8 @@
       </h1>
       <div class="row align-items-center">
         <div class="col-lg-6 mt-3 text-center">
-          <img class="img-fluid rounded mt-md-3 mb-3 border shadow" height="450" width="300" src="images/endodontia.jpg">
+          <img class="img-fluid rounded mt-md-3 mb-3 border shadow" height="450" width="300"
+            src="images/endodontia.jpg">
         </div>
         <div class="col-lg-6 mt-3">
           <p class="text-justify lead">
