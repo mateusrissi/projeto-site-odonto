@@ -13,15 +13,24 @@
 }
 
 .bg-contato {
-    background: rgb(31,191,120);
-    background: linear-gradient(162deg, rgba(31,191,120,1) 0%, rgba(0,157,255,1) 49%, rgba(72,11,159,1) 95%);
+    background: rgb(31, 191, 120);
+    background: linear-gradient(162deg, rgba(31, 191, 120, 1) 0%, rgba(0, 157, 255, 1) 49%, rgba(72, 11, 159, 1) 95%);
 }
 
 body {
     margin-top: 115px;
+    font-family: 'Raleway', sans-serif;
 }
 
-.carousel-item {
-    opacity: 0.8;
-    filter: alpha(opacity=80);
+.navbar {
+    min-height: 110px;
+    font-size: 1.1em;
+}
+
+.texto-cultive {
+    font-family: 'Cutive Mono', monospace;
+}
+
+.texto-cultive p {
+    font-size: 1.1em;
 }
