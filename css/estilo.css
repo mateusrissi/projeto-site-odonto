@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Cutive+Mono|Raleway&display=swap);
-
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 .bg-parallax {
     background: url(../images/bg.jpg) fixed;
     position: relative;
@@ -26,13 +25,5 @@ body {
 
 .navbar {
     min-height: 110px;
-    font-size: 1.1em;
-}
-
-.texto-cultive {
-    font-family: 'Cutive Mono', monospace;
-}
-
-.texto-cultive p {
     font-size: 1.1em;
 }
