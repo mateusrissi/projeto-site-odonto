@@ -17,9 +17,9 @@
   background: rgb(31, 191, 120);
   background: linear-gradient(
     162deg,
-    rgb(191, 180, 31) 0%,
-    rgb(0, 0, 0) 49%,
-    rgb(183, 206, 56) 95%
+    gold 0%,
+    #0f0f0f 49%,
+    gold 95%
   );
 }
 
