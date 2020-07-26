@@ -1,29 +1,62 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 .bg-parallax {
-    background: url(../images/bg.jpg) fixed;
-    position: relative;
+  background: url(../images/bg.jpg) fixed;
+  position: relative;
 }
 
 .underline {
-    content: '';
-    border-top: 2px solid lightseagreen;
-    width: 70px;
-    display: block;
-    margin-bottom: 8px;
-    margin: 0 auto;
+  content: "";
+  border-top: 2px solid lightseagreen;
+  width: 70px;
+  display: block;
+  margin-bottom: 8px;
+  margin: 0 auto;
 }
 
 .bg-contato {
-    background: rgb(31, 191, 120);
-    background: linear-gradient(162deg, rgba(31, 191, 120, 1) 0%, rgba(0, 157, 255, 1) 49%, rgba(72, 11, 159, 1) 95%);
+  background: rgb(31, 191, 120);
+  background: linear-gradient(
+    162deg,
+    rgba(31, 191, 120, 1) 0%,
+    rgba(0, 157, 255, 1) 49%,
+    rgba(72, 11, 159, 1) 95%
+  );
 }
 
 body {
-    margin-top: 115px;
-    font-family: 'Raleway', sans-serif;
+  margin-top: 115px;
+  font-family: "Raleway", sans-serif;
 }
 
 .navbar {
-    min-height: 110px;
-    font-size: 1.1em;
+  min-height: 110px;
+  font-size: 1.1em;
+  background-color: #0f0f0f;
+  color: gold;
+}
+
+.navbar a {
+  color: gold;
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  color: gold;
+  background-color: #0f0f0f;
+  border-color: gold;
+}
+
+.dropdown-item {
+  color: gold;
+  background-color: #0f0f0f;
+  border-color: gold;
+}
+
+.dropdown-item:hover {
+  color: gold;
+  background-color: #1a2228;
+}
+
+.navbar-toggler-icon {
+    color: gold;
 }
