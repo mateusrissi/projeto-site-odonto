@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
 .bg-parallax {
   background: url(../images/bg.jpg) fixed;
   position: relative;
@@ -6,7 +8,7 @@
 
 .underline {
   content: "";
-  border-top: 2px solid gold;
+  border-top: 2px solid #d1ab67;
   width: 70px;
   display: block;
   margin-bottom: 8px;
@@ -15,54 +17,80 @@
 
 .bg-contato {
   background: rgb(31, 191, 120);
-  background: linear-gradient(
-    162deg,
-    gold 0%,
-    #0f0f0f 49%,
-    gold 95%
-  );
+  background: linear-gradient(162deg, #d1ab67 0%, #0f0f0f 49%, #d1ab67 95%);
 }
 
 .btn-contato {
   background-color: #0f0f0f;
-  color: gold;
+  color: #d1ab67;
   font-weight: bold;
 }
 
 body {
   margin-top: 115px;
-  font-family: "Raleway", sans-serif;
+  background-color: #0f0f0f;
+  color: #d1ab67;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5em;
+}
+
+body abbr {
+  color: #d1ab67;
+  font-size: 1.5em;
+}
+
+body abbr a {
+  color: #d1ab67;
+}
+
+body abbr a:hover {
+  color: gold;
+}
+
+.contact-div-index {
+  color: #d1ab67;
 }
 
 .navbar {
   min-height: 110px;
-  font-size: 1.1em;
   background-color: #0f0f0f;
-  color: gold;
+  color: #d1ab67;
+  border-bottom: 2px solid #d1ab67;
 }
 
 .navbar a {
-  color: gold;
+  color: #d1ab67;
   font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
 }
 
 .dropdown-menu {
-  color: gold;
+  color: #d1ab67;
   background-color: #0f0f0f;
-  border-color: gold;
+  border-color: #d1ab67;
 }
 
 .dropdown-item {
-  color: gold;
+  color: #d1ab67;
   background-color: #0f0f0f;
-  border-color: gold;
+  border-color: #d1ab67;
 }
 
 .dropdown-item:hover {
-  color: gold;
+  color: #d1ab67;
   background-color: #1a2228;
 }
 
 .navbar-toggler-icon {
-  color: gold;
+  color: #d1ab67;
+}
+
+.card {
+  background-color: #0f0f0f;
+  border-color: #d1ab67;
+}
+
+.card-body hr {
+  border-color: #d1ab67;
 }
