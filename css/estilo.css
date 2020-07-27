@@ -3,6 +3,10 @@
 
 .bg-parallax {
   background: url(../images/bg.jpg) fixed;
+  background-position: top center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  margin: 0 auto !important;
   position: relative;
 }
 
